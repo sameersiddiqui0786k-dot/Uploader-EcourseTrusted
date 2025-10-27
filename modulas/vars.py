@@ -3,12 +3,12 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "10534939"))
-API_HASH = environ.get("API_HASH", "9c45b95093a13d3411201d14f7684066")
+API_ID = int(environ.get("API_ID", "22325981"))
+API_HASH = environ.get("API_HASH", "ef55d51182a725ba11fc1e3ed385c5e4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", "8385924443"))
-CREDIT = environ.get("CREDIT", "RUTURAJ")
+OWNER = int(environ.get("OWNER", "8408897715"))
+CREDIT = environ.get("CREDIT", "ECOURSE TRUSTED")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '8385924443').split(',')
@@ -33,4 +33,5 @@ photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png' #https:
 photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
 photozip = 'https://envs.sh/cD_.jpg'
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
