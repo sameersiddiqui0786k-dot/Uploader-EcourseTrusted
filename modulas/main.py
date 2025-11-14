@@ -106,7 +106,7 @@ async def start(bot, m: Message):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="tg://openmessage?user_id=8408897715")],
         ])
         
         await start_message.edit_text(
@@ -121,7 +121,7 @@ async def start(bot, m: Message):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="tg://openmessage?user_id=8408897715")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
@@ -139,7 +139,7 @@ async def back_to_main_menu(client, callback_query):
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="tg://openmessage?user_id=8408897715")],
         ])
     
     await callback_query.message.edit_media(
@@ -260,7 +260,7 @@ async def upgrade_button(client, callback_query):
            f"• 🎓 Utkarsh Protection(Video + PDF)\n"
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
-           f"<b>💵 Monthly Plan: 100 INR</b>\n\n"
+           f"<b>💵 Monthly Plan: 499 INR</b>\n\n"
            f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](tg://user?id={OWNER})\n"
     )  
     
